@@ -1,17 +1,14 @@
 {
   "cleanUrls": true,
   "trailingSlash": true,
-  "routes": [
+  "rewrites": [
     {
-      "handle": "filesystem"
+      "source": "/love/:path*",
+      "destination": "/love/:path*"
     },
     {
-      "src": "/love/(.*)",
-      "dest": "/love/$1"
-    },
-    {
-      "src": "/notforyoureyes/(.*)",
-      "dest": "/notforyoureyes/$1"
+      "source": "/notforyoureyes/:path*",
+      "destination": "/notforyoureyes/:path*"
     }
   ]
 }
