@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "routes": [
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/love/(.*)",
+      "dest": "/love/$1"
+    },
+    {
+      "src": "/notforyoureyes/(.*)",
+      "dest": "/notforyoureyes/$1"
+    }
+  ]
+}
