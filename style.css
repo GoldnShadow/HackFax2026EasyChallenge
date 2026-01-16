@@ -1,0 +1,22 @@
+body {
+    background-color: #ffe6e6; /* Light pink */
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #ccc;
+    text-align: center;
+}
+
+.invisible-ink {
+    /* This makes the flag the same color as the background */
+    color: white; 
+    font-size: 12px;
+}
